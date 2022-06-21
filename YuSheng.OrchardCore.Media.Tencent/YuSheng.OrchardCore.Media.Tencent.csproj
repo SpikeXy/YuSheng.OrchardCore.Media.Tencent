@@ -9,7 +9,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>spike</Authors>
 		<Description>tencent cos storage plugin</Description>
-		<Version>0.0.4</Version>
+		<Version>0.0.5</Version>
 		<PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Media.Tencent</PackageProjectUrl>
 		<PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
 		<PackageIconUrl />
@@ -27,13 +27,13 @@
 		<PackageReference Include="OrchardCore.Module.Targets" Version="1.4.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\YuSheng.OrchardCore.FileStorage.Tencent\YuSheng.OrchardCore.FileStorage.Tencent.csproj" />
-	</ItemGroup>
-	<ItemGroup>
 	  <None Include="horse-face-front-view-sketch.png">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
 	  </None>
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\YuSheng.OrchardCore.FileStorage.Tencent\YuSheng.OrchardCore.Media.FileStorage.Tencent.csproj" />
 	</ItemGroup>
 
 </Project>

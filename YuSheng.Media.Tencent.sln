@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuSheng.Media.Tencent", ".\YuSheng.Media.Tencent\YuSheng.Media.Tencent.csproj", "{E7719508-4A18-469F-BCBD-AF441B1E4C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YuSheng.Media.Tencent", "YuSheng.Media.Tencent\YuSheng.Media.Tencent.csproj", "{E7719508-4A18-469F-BCBD-AF441B1E4C84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuSheng.OrchardCore.FileStorage.Tencent", ".\YuSheng.OrchardCore.FileStorage.Tencent\YuSheng.OrchardCore.FileStorage.Tencent.csproj", "{A5DC8CB4-48F1-48F5-A4F5-7FB78729D0FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YuSheng.OrchardCore.Media.FileStorage.Tencent", "YuSheng.OrchardCore.FileStorage.Tencent\YuSheng.OrchardCore.Media.FileStorage.Tencent.csproj", "{A5DC8CB4-48F1-48F5-A4F5-7FB78729D0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuSheng.OrchardCore.Media.Tencent", ".\YuSheng.OrchardCore.Media.Tencent\YuSheng.OrchardCore.Media.Tencent.csproj", "{6BB1E95B-5E21-4D92-AC2E-76E5242EA065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YuSheng.OrchardCore.Media.Tencent", "YuSheng.OrchardCore.Media.Tencent\YuSheng.OrchardCore.Media.Tencent.csproj", "{6BB1E95B-5E21-4D92-AC2E-76E5242EA065}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
