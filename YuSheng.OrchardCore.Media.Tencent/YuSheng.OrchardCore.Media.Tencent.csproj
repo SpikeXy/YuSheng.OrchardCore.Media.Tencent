@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>YuSheng.OrchardCore.Media.Tencent</AssemblyName>
+		<RootNamespace>YuSheng.OrchardCore.Media.Tencent</RootNamespace>
+		<AssemblyVersion>0.0.0.0</AssemblyVersion>
+		<FileVersion>0.0.0.0</FileVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>spike</Authors>
+		<Description>tencent cos storage plugin</Description>
+		<Version>0.0.4</Version>
+		<PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Media.Tencent</PackageProjectUrl>
+		<PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
+		<PackageIconUrl />
+		<Title>YuSheng.OrchardCore.Media.Tencent</Title>
+	</PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="OrchardCore.Abstractions" Version="1.4.0" />
+
+	
+		<PackageReference Include="OrchardCore.Liquid" Version="1.4.0" />
+		<PackageReference Include="OrchardCore.Media.Core" Version="1.4.0" />
+		<PackageReference Include="OrchardCore.Module.Targets" Version="1.4.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\YuSheng.OrchardCore.FileStorage.Tencent\YuSheng.OrchardCore.FileStorage.Tencent.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="horse-face-front-view-sketch.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
