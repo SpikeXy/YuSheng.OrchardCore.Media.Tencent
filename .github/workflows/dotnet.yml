@@ -29,7 +29,9 @@ jobs:
     - name: Deploy nuget packages
       run: 
         dotnet nuget push './YuSheng.OrchardCore.FileStorage.Tencent/bin/Release/*.nupkg' -k ${{secrets.YUSHENG_ORCHARDCORE}} -n true -s https://api.nuget.org/v3/index.json --skip-duplicate 
-
+   
+    - name: Deploy nuget packages
+      run:
         dotnet nuget push './YuSheng.OrchardCore.Media.Tencent/bin/Release/*.nupkg' -k ${{secrets.YUSHENG_ORCHARDCORE}} -n true -s https://api.nuget.org/v3/index.json --skip-duplicate 
 
       
